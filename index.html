@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing web development skills, projects, and experience">
+    <title>Arslan Khan | Coursera Portfolio Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <div class="logo">
+                <h1>Arslan Khan</h1>
+                <p>Web Developer</p>
+            </div>
+            <nav role="navigation" aria-label="Main navigation">
+                <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about-me" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="blob blob-1"></div> <!-- Decorative blob -->
+            <div class="blob blob-2"></div> <!-- Decorative blob -->
+            <div class="hero-overlay"></div> <!-- Gradient overlay -->
+            <div class="container">
+                <h1 class="hero-title">Transforming Ideas Into Reality</h1> <!-- Bold tagline -->
+                <p class="hero-subtitle">Empowering businesses with cutting-edge web solutions that inspire and engage.</p> <!-- Updated description -->
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Explore My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Let's Collaborate</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about-me" class="about-section">
+            <div class="blob blob-1"></div> <!-- Decorative blob -->
+            <div class="blob blob-2"></div> <!-- Decorative blob -->
+            <div class="container">
+                <h2 class="section-title">About Me</h2> <!-- Consistent section title -->
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://picsum.photos/400/400" alt="Arslan Khan, web developer" />
+                    </div>
+                    <div class="about-text">
+                        <p class="about-description">Hello! I'm Arslan, a passionate web developer with 3 years of experience in creating responsive and accessible web applications. My journey in web development began with a curiosity about how websites work, which led me to pursue a degree in Computer Science.</p>
+                        <p class="about-description">I specialize in frontend development using modern technologies like HTML5, CSS3, JavaScript, and various frameworks. I'm committed to creating web experiences that are not only visually appealing but also accessible to all users.</p>
+                        <p class="about-description">When I'm not coding, you can find me riding, reading tech blogs, or experimenting with new web technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="app">App Development</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX</button>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card" data-category="web">
+                        <figure class="project-image">
+                            <img src="https://picsum.photos/400/300" alt="E-commerce website for a local bookstore" class="project-img">
+                        </figure>
+                        <div class="project-info">
+                            <h3>Bookworm E-commerce</h3>
+                            <p>A responsive e-commerce solution for a local bookstore with integrated payment processing and inventory management.</p>
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" aria-label="View live demo of Bookworm E-commerce project">Live Demo</a>
+                                <a href="#" aria-label="View source code for Bookworm E-commerce project">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="app">
+                        <figure class="project-image">
+                            <img src="https://picsum.photos/400/300" alt="Task management application with calendar integration" class="project-img">
+                        </figure>
+                        <div class="project-info">
+                            <h3>TaskMaster App</h3>
+                            <p>A productivity tool that helps users manage tasks, set reminders, and organize their schedule with intuitive drag-and-drop functionality.</p>
+                            <div class="tech-stack">
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" aria-label="View live demo of TaskMaster App project">Live Demo</a>
+                                <a href="#" aria-label="View source code for TaskMaster App project">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ui">
+                        <figure class="project-image">
+                            <img src="https://picsum.photos/400/300" alt="UI/UX redesign for a fitness application" class="project-img">
+                        </figure>
+                        <div class="project-info">
+                            <h3>FitLife UI Redesign</h3>
+                            <p>A complete UI/UX overhaul for a fitness application, focusing on improving user experience and accessibility while maintaining brand identity.</p>
+                            <div class="tech-stack">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>CSS</span>
+                                <span>Accessibility</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" aria-label="View case study of FitLife UI Redesign project">Case Study</a>
+                                <a href="#" aria-label="View prototype for FitLife UI Redesign">Prototype</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-content">
+                    <div class="skill-category">
+                        <h3>Frontend Development</h3>
+                        <ul class="skills-list">
+                            <li>HTML5</li>
+                            <li>CSS3/SASS</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React.js</li>
+                            <li>Vue.js</li>
+                            <li>Responsive Design</li>
+                            <li>Web Accessibility (WCAG)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend Development</h3>
+                        <ul class="skills-list">
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>PHP</li>
+                            <li>REST API Design</li>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <ul class="skills-list">
+                            <li>Git/GitHub</li>
+                            <li>Webpack</li>
+                            <li>VS Code</li>
+                            <li>Figma</li>
+                            <li>Adobe XD</li>
+                            <li>SEO Basics</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li>
+                                <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                                <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                                <a href="tel:+1234567890">(123) 456-7890</a>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                                <span>Islamabad, Pakistan</span>
+                            </li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required aria-required="true">
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Arslan Khan</h3>
+                    <p>Web Developer</p>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Arslan Khan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
